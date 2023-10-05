@@ -13,7 +13,7 @@ public class PayrollCalculator {
         float payRate = scanner.nextFloat();
         float grossPay = payRate * hours;
 
-        System.out.println("Hello, " + name + "your gross pay is " + grossPay);
+        System.out.println("Hello, " + name + ", your gross pay is " + grossPay);
 
 
 
