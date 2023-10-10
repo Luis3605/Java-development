@@ -5,15 +5,15 @@ public class BasicCalculator {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // enter in the first number
+        //first number
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
 
-        // enter in the second number
+        //second number
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
 
-        // Ask for the operation
+        //operation
         System.out.println("Select an operation:");
         System.out.println("1. Add");
         System.out.println("2. Subtract");
